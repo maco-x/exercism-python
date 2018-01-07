@@ -92,13 +92,13 @@ def add_gigasecond(start_date):
     return start_date + temp_date
 
 
-#try:
-#print(word_count("testing 1 2 testing"))
-#except ValueError as error:
-#    print(error)
-#    exit(1)
+def bob(message):
+    if message[-1] == "?":
+        return "Sure."
+    elif message[-1] =="!":
+        return "Whoa, chill out!"
+    elif message == None:
+        return "Fine. Be that way!"
+    else:
+        return "Whatever."
 
-#word = "fish::"
-#while not word[-1].isalpha():
-#    word = word[0:-1]
-#print(word[1:])
